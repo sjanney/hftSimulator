@@ -43,6 +43,32 @@ chmod +x run_simulator.py
 ./run_simulator.py --strategy momentum --expanded-markets --real-data
 ```
 
+## Demo Command
+
+Experience the full power of the HFT Simulator with this comprehensive demo command:
+
+```bash
+./run_simulator.py --strategy bollinger_bands --expanded-markets \
+  --stocks AAPL,MSFT,GOOGL,AMZN,TSLA,META,NVDA \
+  --crypto BTC-USD,ETH-USD,SOL-USD,ADA-USD,XRP-USD \
+  --forex EUR-USD,GBP-USD,USD-JPY,AUD-USD,USD-CAD \
+  --initial-cash 500000 \
+  --tick-interval 60 \
+  --volatility 0.002 \
+  --crypto-volatility 3.5 \
+  --forex-volatility 0.5 \
+  --random-seed 42 \
+  --strategy-params window=20,num_std=2.0,position_size=0.1,max_position=0.2
+```
+
+This demo showcases:
+- Multi-market trading across stocks, crypto, and forex
+- A fast 60ms tick interval for high-frequency simulation
+- Market-specific volatility settings (crypto 3.5x more volatile than stocks)
+- Bollinger Bands strategy with optimal parameters
+- Beautiful color-coded UI with market-type grouping
+- $500,000 initial capital with intelligent position sizing
+
 ## Market Types
 
 The simulator supports three market types, each with realistic behavior:

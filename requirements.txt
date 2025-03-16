@@ -1,0 +1,11 @@
+numpy==1.24.4
+pandas==2.0.3
+matplotlib==3.7.2
+yfinance==0.2.32
+python-dateutil==2.8.2
+rich==13.5.2
+requests==2.31.0
+websocket-client==1.6.3
+plotly==5.16.1
+scipy==1.11.3
+pytz==2023.3 

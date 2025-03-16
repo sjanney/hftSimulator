@@ -1,0 +1,42 @@
+2025-03-16 14:46:30,507 - hft_simulator.__main__ - INFO - Starting new HFT Simulator session. Logs will be written to /Users/shanejanney/Desktop/Projects/HFT Simulator/logs/hft_simulator_20250316_144630.log
+2025-03-16 14:46:30,508 - hft_simulator.__main__ - INFO - Starting HFT Simulator with strategy: mean_reversion
+2025-03-16 14:46:30,508 - hft_simulator.__main__ - INFO - Trading symbols: ['AAPL', 'MSFT', 'GOOGL']
+2025-03-16 14:46:30,513 - hft_simulator.__main__ - INFO - Using simulated market data
+2025-03-16 14:46:30,514 - hft_simulator.engine.trading_engine - INFO - Trading engine initialized with $100000.00 cash
+2025-03-16 14:46:30,514 - hft_simulator.strategies.mean_reversion - INFO - Mean reversion strategy initialized with window size 20, entry threshold 1.5, exit threshold 0.5
+2025-03-16 14:46:30,514 - hft_simulator.ui.terminal_ui - INFO - Enhanced Terminal UI initialized with refresh rate 0.5s
+2025-03-16 14:46:30,514 - hft_simulator.__main__ - INFO - Starting simulation...
+2025-03-16 14:46:40,081 - hft_simulator.engine.trading_engine - INFO - Placed sell order for 100 MSFT (market)
+2025-03-16 14:46:40,082 - hft_simulator.strategies.mean_reversion - INFO - Placed SELL order for 100 MSFT
+2025-03-16 14:46:40,082 - hft_simulator.engine.trading_engine - INFO - Placed sell order for 100 GOOGL (market)
+2025-03-16 14:46:40,082 - hft_simulator.strategies.mean_reversion - INFO - Placed SELL order for 100 GOOGL
+2025-03-16 14:46:40,082 - hft_simulator.engine.trading_engine - INFO - Executed sell trade for 100 MSFT at $331.17, commission $33.12
+2025-03-16 14:46:40,082 - hft_simulator.engine.trading_engine - INFO - Executed sell trade for 100 GOOGL at $430.86, commission $43.09
+2025-03-16 14:46:44,615 - hft_simulator.engine.trading_engine - INFO - Placed buy order for 100 GOOGL (market)
+2025-03-16 14:46:44,615 - hft_simulator.strategies.mean_reversion - INFO - Placed BUY order for 100 GOOGL
+2025-03-16 14:46:44,616 - hft_simulator.engine.trading_engine - INFO - Executed buy trade for 100 GOOGL at $431.32, commission $43.13
+2025-03-16 14:46:46,130 - hft_simulator.engine.trading_engine - INFO - Placed sell order for 100 AAPL (market)
+2025-03-16 14:46:46,130 - hft_simulator.strategies.mean_reversion - INFO - Placed SELL order for 100 AAPL
+2025-03-16 14:46:46,131 - hft_simulator.engine.trading_engine - INFO - Executed sell trade for 100 AAPL at $400.27, commission $40.03
+2025-03-16 14:46:47,647 - hft_simulator.engine.trading_engine - INFO - Placed buy order for 100 AAPL (market)
+2025-03-16 14:46:47,647 - hft_simulator.strategies.mean_reversion - INFO - Placed BUY order for 100 AAPL
+2025-03-16 14:46:47,647 - hft_simulator.engine.trading_engine - INFO - Executed buy trade for 100 AAPL at $399.09, commission $39.91
+2025-03-16 14:46:48,153 - hft_simulator.engine.trading_engine - INFO - Placed buy order for 100 AAPL (market)
+2025-03-16 14:46:48,154 - hft_simulator.strategies.mean_reversion - INFO - Placed BUY order for 100 AAPL
+2025-03-16 14:46:48,154 - hft_simulator.engine.trading_engine - INFO - Executed buy trade for 100 AAPL at $398.95, commission $39.89
+2025-03-16 14:46:48,660 - hft_simulator.engine.trading_engine - INFO - Placed buy order for 100 GOOGL (market)
+2025-03-16 14:46:48,660 - hft_simulator.strategies.mean_reversion - INFO - Placed BUY order for 100 GOOGL
+2025-03-16 14:46:48,660 - hft_simulator.engine.trading_engine - INFO - Executed buy trade for 100 GOOGL at $431.01, commission $43.10
+2025-03-16 14:46:50,174 - hft_simulator.engine.trading_engine - INFO - Placed buy order for 100 MSFT (market)
+2025-03-16 14:46:50,175 - hft_simulator.strategies.mean_reversion - INFO - Placed BUY order for 100 MSFT
+2025-03-16 14:46:50,175 - hft_simulator.engine.trading_engine - INFO - Executed buy trade for 100 MSFT at $332.90, commission $33.29
+2025-03-16 14:46:50,676 - hft_simulator.engine.trading_engine - INFO - Placed sell order for 100 GOOGL (market)
+2025-03-16 14:46:50,676 - hft_simulator.strategies.mean_reversion - INFO - Placed SELL order for 100 GOOGL
+2025-03-16 14:46:50,676 - hft_simulator.engine.trading_engine - INFO - Executed sell trade for 100 GOOGL at $431.17, commission $43.12
+2025-03-16 14:46:51,181 - hft_simulator.engine.trading_engine - INFO - Placed sell order for 100 GOOGL (market)
+2025-03-16 14:46:51,182 - hft_simulator.strategies.mean_reversion - INFO - Placed SELL order for 100 GOOGL
+2025-03-16 14:46:51,182 - hft_simulator.engine.trading_engine - INFO - Executed sell trade for 100 GOOGL at $432.20, commission $43.22
+2025-03-16 14:46:51,683 - hft_simulator.engine.trading_engine - INFO - Placed sell order for 100 MSFT (market)
+2025-03-16 14:46:51,683 - hft_simulator.strategies.mean_reversion - INFO - Placed SELL order for 100 MSFT
+2025-03-16 14:46:51,684 - hft_simulator.engine.trading_engine - INFO - Executed sell trade for 100 MSFT at $333.17, commission $33.32
+2025-03-16 14:46:52,934 - hft_simulator.__main__ - INFO - Simulation stopped by user.
